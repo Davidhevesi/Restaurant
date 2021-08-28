@@ -1,0 +1,12 @@
+.star-wrapper {
+  @apply relative inline-block;
+}
+
+.stars {
+  @apply text-yellow-300 absolute top-0 left-0 overflow-hidden whitespace-nowrap
+}
+
+.star-wrapper::before, .stars::before {
+  font-family: "FontAwesome";
+  content: "\f005 \0020 \f005 \0020 \f005 \0020 \f005 \0020 \f005";
+}
